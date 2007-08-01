@@ -11,6 +11,10 @@ These were generated on an Ubuntu system, but will give you arough feel for othe
   Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6), python-motmotutils
  * wxglvideo Version: 0.3~dev307-0ads1
   Build-Depends: python-all-dev, python-setuptools, debhelper (>= 5), python-motmotutils
+ * wxvideo Version: 0.3.dev319-0ads1
+  Build-Depends: python-all-dev, python-setuptools, debhelper (>= 5), python-motmotutils
+ * imops Version: 0.3.dev331-0ads2
+  Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6), python-pyrex, python-numpy (>= 2:1.0.2~dev3546), python-motmotutils
  * wxwrap Version: 0.3~dev311-0ads1
   Build-Depends: python-all-dev, python-setuptools, debhelper (>= 5), python-motmotutils
  * wxvalidatedtext Version: 0.3~dev313-0ads1
@@ -27,6 +31,10 @@ These were generated on an Ubuntu system, but will give you arough feel for othe
   Depends: python2.5, python, python-central (>= 0.5.8), python-numpy, python-imaging, python-matplotlib, python-imaging, python-imops, python-wxgtk2.6
  * python-wxglvideo Version: 0.4.dev13-0ads1
   Depends: python, python-central (>= 0.5.8), python-opengl, python-wxgtk2.6, python-imops
+ * python-wxvideo Version: 0.4.dev13-0ads1
+  Depends: python, python-central (>= 0.5.8), python-wxwrap, python-imops
+ * python-imops Version: 0.4.dev13-0ads2
+  Depends: python-central (>= 0.5.8), python (<< 2.6), python (>= 2.4), libc6 (>= 2.5-0ubuntu1), python-numpy (>= 2:1.0.2~dev3546)
  * python-wxwrap Version: 0.4.dev13-0ads1
   Depends: python, python-central (>= 0.5.8), python-wxversion, python-wxgtk2.6
  * python-wxvalidatedtext Version: 0.4.dev46-0ads1

@@ -10,7 +10,7 @@ echo    "rough feel for other systems, too."
 echo
 echo "== Dependencies for building motmot packages on Ubuntu =="
 
-for srcpkg in camiface python-flymovieformat wxglvideo wxwrap wxvalidatedtext motmotutils fview
+for srcpkg in camiface python-flymovieformat wxglvideo wxvideo imops wxwrap wxvalidatedtext motmotutils fview
 do
   echo -n " * $srcpkg "
   apt-cache showsrc $srcpkg | grep Version | head -n 1
@@ -21,7 +21,7 @@ done
 echo
 echo "== Dependencies for running motmot packages on Ubuntu =="
 
-for pkg in python-camiface python-flymovieformat python-wxglvideo python-wxwrap python-wxvalidatedtext python-motmotutils python-fview
+for pkg in python-camiface python-flymovieformat python-wxglvideo python-wxvideo python-imops python-wxwrap python-wxvalidatedtext python-motmotutils python-fview
 do
   echo -n " * $pkg "
   apt-cache show --no-all-versions $pkg | grep '^Version'
