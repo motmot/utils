@@ -1,8 +1,8 @@
 = Dependency list =
 
-The following list of dependencies was generated automaticallyby the {{{motmot_utils/debian_show_depends.sh}}} script.
+The following list of dependencies was generated automatically by the {{{motmot_utils/debian_show_depends.sh}}} script.
 
-These were generated on an Ubuntu system, but will give you arough feel for other systems, too.
+These were generated on an Ubuntu system, but will give you a rough feel for other systems, too.
 
 == Dependencies for building motmot packages on Ubuntu ==
  * camiface Version: 0.4.dev71-0ads1

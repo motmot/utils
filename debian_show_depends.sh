@@ -2,10 +2,10 @@
 
 echo "= Dependency list ="
 echo
-echo -n "The following list of dependencies was generated automatically"
+echo -n "The following list of dependencies was generated automatically "
 echo    "by the {{{motmot_utils/debian_show_depends.sh}}} script."
 echo
-echo -n "These were generated on an Ubuntu system, but will give you a"
+echo -n "These were generated on an Ubuntu system, but will give you a "
 echo    "rough feel for other systems, too."
 echo
 echo "== Dependencies for building motmot packages on Ubuntu =="
