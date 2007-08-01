@@ -1,0 +1,37 @@
+= Dependency list =
+
+The following list of dependencies was generated automaticallyby the {{{motmot_utils/debian_show_depends.sh}}} script.
+
+These were generated on an Ubuntu system, but will give you arough feel for other systems, too.
+
+== Dependencies for building motmot packages on Ubuntu ==
+ * camiface Version: 0.4.dev71-0ads1
+  Build-Depends: python-all-dev (>= 2.3.5-11), python-setuptools (>= 0.6b3-1), debhelper (>= 5.0.38), python-dev, python-pyrex (>= 0.9.4.1+lxml0.9.5.1a), g++, scons, libdc1394-dev, libdc1394-2-dev, libopenthreads-dev, python-central (>= 0.5.6), python-motmotutils, libprosilica-gige-dev
+ * python-flymovieformat Version: 0.4.dev60-0ads1
+  Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6), python-motmotutils
+ * wxglvideo Version: 0.3~dev307-0ads1
+  Build-Depends: python-all-dev, python-setuptools, debhelper (>= 5), python-motmotutils
+ * wxwrap Version: 0.3~dev311-0ads1
+  Build-Depends: python-all-dev, python-setuptools, debhelper (>= 5), python-motmotutils
+ * wxvalidatedtext Version: 0.3~dev313-0ads1
+  Build-Depends: python-all-dev, python-setuptools, debhelper (>= 5), python-motmotutils
+ * motmotutils Version: 20070318.00-0ads2
+  Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6)
+ * fview Version: 0.4.dev73-0ads1
+  Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6), python-motmotutils
+
+== Dependencies for running motmot packages on Ubuntu ==
+ * python-camiface Version: 0.4.dev14-0ads1
+  Depends: python (<< 2.6), python (>= 2.4), python-central (>= 0.5.6ubuntu2), libc6 (>= 2.4-1), libdc1394-13, libdc1394v2-1, libraw1394-8, libdc1394-13, libdc1394v2-1, python-setuptools (>= 0.6b3-1), python-numpy (>= 1.0), python-ctypes (>= 1.0.1)
+ * python-flymovieformat Version: 0.4.dev60-0ads1
+  Depends: python2.5, python, python-central (>= 0.5.8), python-numpy, python-imaging, python-matplotlib, python-imaging, python-imops, python-wxgtk2.6
+ * python-wxglvideo Version: 0.4.dev13-0ads1
+  Depends: python, python-central (>= 0.5.8), python-opengl, python-wxgtk2.6, python-imops
+ * python-wxwrap Version: 0.4.dev13-0ads1
+  Depends: python, python-central (>= 0.5.8), python-wxversion, python-wxgtk2.6
+ * python-wxvalidatedtext Version: 0.4.dev46-0ads1
+  Depends: python2.5, python, python-central (>= 0.5.8), python-wxwrap
+ * python-motmotutils Version: 20070318.00-0ads2
+  Depends: python, python-central (>= 0.5.8)
+ * python-fview Version: 0.4.dev73-0ads1
+  Depends: python2.5, python, python-central (>= 0.5.8), python-camiface, python-flymovieformat, python-wxglvideo, python-wxwrap, python-posixsched, python-setuptools, gksu, python-wxvalidatedtext, python-motmotutils (>= 20070318)
