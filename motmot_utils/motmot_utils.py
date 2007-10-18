@@ -1,5 +1,6 @@
 import os, sys, datetime
 import subprocess # subprocess module included with python2.4, but should also be in current directory
+import unittest
 
 def under_svn_control(path):
     version = get_svnversion(path)
@@ -65,6 +66,31 @@ def get_svnversion(path=None):
     if val.endswith('S'):
         val = val[:-1]
     return val
+
+def get_motmot_test_suite():
+    
+    def my_import(name):
+        # from http://docs.python.org/lib/built-in-funcs.html
+        mod = __import__(name)
+        components = name.split('.')
+        for comp in components[1:]:
+            mod = getattr(mod, comp)
+        return mod
+    
+    module_names = ['flytrax.tests',
+                    'FastImage_tests',
+                    ] # name of module with get_test_suite() function
+    all_suites = []
+    for module_name in module_names:
+        tests_sub_module = my_import(module_name)
+        suite = tests_sub_module.get_test_suite()
+        all_suites.append( suite )
+    suite = unittest.TestSuite( all_suites )
+    return suite
+
+def test_motmot():
+    suite = get_motmot_test_suite()
+    unittest.TextTestRunner(verbosity=2).run(suite)
 
 def main():
     print 'SVN version:',get_svnversion()
