@@ -79,6 +79,7 @@ def get_motmot_test_suite():
     
     module_names = ['flytrax.tests',
                     'FastImage_tests',
+                    'realtime_image_analysis.tests',
                     ] # name of module with get_test_suite() function
     all_suites = []
     for module_name in module_names:
