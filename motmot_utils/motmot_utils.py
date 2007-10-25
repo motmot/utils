@@ -1,4 +1,4 @@
-import os, sys, datetime
+import os, sys, datetime, traceback
 import subprocess # subprocess module included with python2.4, but should also be in current directory
 import unittest
 
@@ -77,13 +77,19 @@ def get_motmot_test_suite():
             mod = getattr(mod, comp)
         return mod
     
-    module_names = ['flytrax.tests',
+    module_names = ['cam_iface.tests',
+                    'flytrax.tests',
                     'FastImage_tests',
                     'realtime_image_analysis.tests',
                     ] # name of module with get_test_suite() function
     all_suites = []
     for module_name in module_names:
-        tests_sub_module = my_import(module_name)
+        try:
+            tests_sub_module = my_import(module_name)
+        except Exception,err:
+            print 'ERROR: Could not import module "%s" - skipping tests for this module'%module_name
+            traceback.print_exc(err)
+            continue
         suite = tests_sub_module.get_test_suite()
         all_suites.append( suite )
     suite = unittest.TestSuite( all_suites )
