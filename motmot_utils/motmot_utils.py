@@ -16,9 +16,9 @@ def get_svnversion_persistent(store_path,version_str):
         g={};l={}
         execfile(store_path,g,l)
         svnversion = l['__svnrev__'] # read from version file
-        
+
     version = version_str%{'svnversion':svnversion}
-    
+
     if save_version:
         fd = open(store_path,'wb')
         fd.write('#automatically generated on %s\n'%datetime.datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000"))
@@ -26,7 +26,7 @@ def get_svnversion_persistent(store_path,version_str):
         fd.write('__version__="%s"\n'%version)
         fd.close()
     return version
-    
+
 def get_svnversion(path=None):
     if path is None:
         path = os.path.abspath(os.curdir)
@@ -56,7 +56,7 @@ def get_svnversion(path=None):
         if errstr.endswith('not versioned, and not exported'):
             return 'not versioned, and not exported'
         raise RuntimeError('"%s" returned error: "%s"'%(' '.join(args),errstr))
-                                                        
+
     val = res.stdout.read()
     colon_idx = val.find(':')
     if colon_idx != -1:
@@ -68,7 +68,7 @@ def get_svnversion(path=None):
     return val
 
 def get_motmot_test_suite():
-    
+
     def my_import(name):
         # from http://docs.python.org/lib/built-in-funcs.html
         mod = __import__(name)
@@ -76,11 +76,12 @@ def get_motmot_test_suite():
         for comp in components[1:]:
             mod = getattr(mod, comp)
         return mod
-    
+
     module_names = ['cam_iface.tests',
                     'flytrax.tests',
                     'FastImage_tests',
                     'realtime_image_analysis.tests',
+                    'FlyMovieFormat.tests',
                     ] # name of module with get_test_suite() function
     all_suites = []
     for module_name in module_names:
