@@ -77,11 +77,11 @@ def get_motmot_test_suite():
             mod = getattr(mod, comp)
         return mod
 
-    module_names = ['cam_iface.tests',
-                    'flytrax.tests',
-                    'FastImage_tests',
-                    'realtime_image_analysis.tests',
-                    'FlyMovieFormat.tests',
+    module_names = ['motmot.cam_iface.tests',
+                    'motmot.flytrax.tests',
+                    'motmot.FastImage.tests',
+                    'motmot.realtime_image_analysis.tests',
+                    'motmot.FlyMovieFormat.tests',
                     ] # name of module with get_test_suite() function
     all_suites = []
     for module_name in module_names:
