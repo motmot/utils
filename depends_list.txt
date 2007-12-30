@@ -5,41 +5,63 @@ The following list of dependencies was generated automatically by the {{{motmot_
 These were generated on an Ubuntu system, but will give you a rough feel for other systems, too.
 
 == Dependencies for building motmot packages on Ubuntu ==
- * camiface Version: 0.4.dev71-0ads1
-  Build-Depends: python-all-dev (>= 2.3.5-11), python-setuptools (>= 0.6b3-1), debhelper (>= 5.0.38), python-dev, python-pyrex (>= 0.9.4.1+lxml0.9.5.1a), g++, scons, libdc1394-dev, libdc1394-2-dev, libopenthreads-dev, python-central (>= 0.5.6), python-motmotutils, libprosilica-gige-dev
- * python-flymovieformat Version: 0.4.dev60-0ads1
-  Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6), python-motmotutils
- * wxglvideo Version: 0.3~dev307-0ads1
-  Build-Depends: python-all-dev, python-setuptools, debhelper (>= 5), python-motmotutils
- * wxvideo Version: 0.3.dev319-0ads1
-  Build-Depends: python-all-dev, python-setuptools, debhelper (>= 5), python-motmotutils
- * imops Version: 0.3.dev331-0ads2
-  Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6), python-pyrex, python-numpy (>= 2:1.0.2~dev3546), python-motmotutils
- * wxwrap Version: 0.3~dev311-0ads1
-  Build-Depends: python-all-dev, python-setuptools, debhelper (>= 5), python-motmotutils
- * wxvalidatedtext Version: 0.3~dev313-0ads1
-  Build-Depends: python-all-dev, python-setuptools, debhelper (>= 5), python-motmotutils
- * motmotutils Version: 20070318.00-0ads2
+ * motmot.utils Version: 20071227.00-0ads1
   Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6)
- * fview Version: 0.4.dev73-0ads1
-  Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6), python-motmotutils
+ * posixsched Version: 1.01-1
+  Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6), libc6-dev
+ * motmot.fastimage Version: 0.5.2~dev-r362-0ads1
+  Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6), python-pyrex, libipp-dev
+ * motmot.flytrax Version: 0.5.3~dev-r362-0ads1
+  Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6)
+ * motmot.fview Version: 0.5.1~dev-r358-0ads1
+  Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6)
+ * motmot.fview.livehistogram Version: 0.5.0~dev-r381-0ads1
+  Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6)
+ * motmot.fview.udplogger Version: 0.4~dev-r376-0ads1
+  Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6)
+ * motmot.imops Version: 0.5.2~dev-r348-0ads1
+  Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6), python-pyrex, python-numpy (>= 1:1.0.3)
+ * motmot.camiface Version: 0.4.1~dev-r345-0ads1
+  Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6), libcamiface-dev (>= 0.4.dev341), python-pyrex (>= 0.9.4.1+lxml0.9.5.1a)
+ * motmot.realtimeimageanalysis Version: 0.5.3~dev-r362-0ads1
+  Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6), python-motmot-fastimage, libipp-dev, python-pyrex, python-numpy, python-setuptools
+ * motmot.trackem Version: 0.4.1~dev-r362-0ads1
+  Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6)
+ * motmot.wxglvideo Version: 0.6.0-0ads1
+  Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6)
+ * motmot.wxvalidatedtext Version: 0.5.1~dev-r350-0ads1
+  Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6)
+ * motmot.wxvideo Version: 0.5.2~dev-r382-0ads1
+  Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6)
 
 == Dependencies for running motmot packages on Ubuntu ==
- * python-camiface Version: 0.4.dev14-0ads1
-  Depends: python (<< 2.6), python (>= 2.4), python-central (>= 0.5.6ubuntu2), libc6 (>= 2.4-1), libdc1394-13, libdc1394v2-1, libraw1394-8, libdc1394-13, libdc1394v2-1, python-setuptools (>= 0.6b3-1), python-numpy (>= 1.0), python-ctypes (>= 1.0.1)
- * python-flymovieformat Version: 0.4.dev60-0ads1
-  Depends: python2.5, python, python-central (>= 0.5.8), python-numpy, python-imaging, python-matplotlib, python-imaging, python-imops, python-wxgtk2.6
- * python-wxglvideo Version: 0.4.dev13-0ads1
-  Depends: python, python-central (>= 0.5.8), python-opengl, python-wxgtk2.6, python-imops
- * python-wxvideo Version: 0.4.dev13-0ads1
-  Depends: python, python-central (>= 0.5.8), python-wxwrap, python-imops
- * python-imops Version: 0.4.dev13-0ads2
-  Depends: python-central (>= 0.5.8), python (<< 2.6), python (>= 2.4), libc6 (>= 2.5-0ubuntu1), python-numpy (>= 2:1.0.2~dev3546)
- * python-wxwrap Version: 0.4.dev13-0ads1
-  Depends: python, python-central (>= 0.5.8), python-wxversion, python-wxgtk2.6
- * python-wxvalidatedtext Version: 0.4.dev46-0ads1
-  Depends: python2.5, python, python-central (>= 0.5.8), python-wxwrap
- * python-motmotutils Version: 20070318.00-0ads2
+ *  Version: 0.4.dev367-0ads1
+  Depends: libc6 (>= 2.6-1), libcv1, libdc1394-13, libdc1394-2, libhighgui1, libraw1394-8, libprosilica-gige0
+ *  Version: 20071230.00-0ads1
+  Depends: python2.5, python, python-central (>= 0.5.8), python-setuptools
+ *  Version: 1.01-0ads5
+  Depends: python2.5, python-central (>= 0.5.8), python (<< 2.6), python (>= 2.4), libc6 (>= 2.5-0ubuntu1)
+ *  Version: 0.5.2~dev-r379-0ads1
+  Depends: python-central (>= 0.5.8), python (<< 2.6), python (>= 2.4), libc6 (>= 2.6-1), libipp, python-numpy
+ *  Version: 0.5.3~dev-r380-0ads1
+  Depends: python2.5, python, python-central (>= 0.5.8), python-motmot-fview, python-motmot-realtimeimageanalysis, python-motmot-wxvideo, python-motmot-wxvalidatedtext, python-scipy
+ *  Version: 0.5.2~dev-r379-0ads1
+  Depends: python2.5, python, python-central (>= 0.5.8), python-motmot-camiface, python-motmot-flymovieformat, python-motmot-wxglvideo, python-posixsched, python-setuptools, gksu, python-motmot-wxvalidatedtext, python-motmot-utils, python-pyglet, python-pygarrayimage
+ *  Version: 0.5.0~dev-r381-0ads1
   Depends: python, python-central (>= 0.5.8)
- * python-fview Version: 0.4.dev73-0ads1
-  Depends: python2.5, python, python-central (>= 0.5.8), python-camiface, python-flymovieformat, python-wxglvideo, python-wxwrap, python-posixsched, python-setuptools, gksu, python-wxvalidatedtext, python-motmotutils (>= 20070318)
+ *  Version: 0.4~dev-r376-0ads1
+  Depends: python, python-central (>= 0.5.8)
+ *  Version: 0.5.2~dev-r379-0ads1
+  Depends: python-central (>= 0.5.8), python (<< 2.6), python (>= 2.4), libc6 (>= 2.6-1), python-numpy (>= 1:1.0.3), python-setuptools
+ *  Version: 0.4.1~dev-r379-0ads1
+  Depends: python-central (>= 0.5.8), python (<< 2.6), python (>= 2.4), libc6 (>= 2.6-1), libcamiface
+ *  Version: 0.5.3~dev-r379-0ads1
+  Depends: python-central (>= 0.5.8), python (<< 2.6), python (>= 2.4), libc6 (>= 2.6-1), python-motmot-fastimage, python-numpy
+ *  Version: 0.4.1~dev-r362-0ads1
+  Depends: python, python-central (>= 0.5.8), python-motmot-fview, python-motmot-fastimage, python-motmot-wxvalidatedtext, python-numpy, python-motmot-imops, python-motmot-flytrax
+ *  Version: 0.6.1~dev-r384-0ads1
+  Depends: python, python-central (>= 0.5.8), python-opengl, python-wxgtk2.8, python-motmot-imops, python-setuptools, python-pygarrayimage, python-pyglet
+ *  Version: 0.5.1~dev-r350-0ads1
+  Depends: python2.5, python, python-central (>= 0.5.8)
+ *  Version: 0.5.2~dev-r382-0ads1
+  Depends: python, python-central (>= 0.5.8), python-motmot-imops

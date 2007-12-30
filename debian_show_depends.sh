@@ -10,8 +10,19 @@ echo    "rough feel for other systems, too."
 echo
 echo "== Dependencies for building motmot packages on Ubuntu =="
 
-for srcpkg in camiface python-flymovieformat wxglvideo wxvideo imops wxwrap wxvalidatedtext motmotutils fview
-do
+# XXX Need to update this. Here are most of the binaries:
+
+binpkgs="camiface python-motmot-utils python-posixsched python-motmot-fastimage python-motmot-flytrax python-motmot-fview python-motmot-fview-livehistogram python-motmot-fview-udplogger python-motmot-imops python-motmot-camiface python-motmot-realtimeimageanalysis python-motmot-trackem python-motmot-wxglvideo python-motmot-wxvalidatedtext python-motmot-wxvideo"
+
+for binpkg in $binpkgs; do
+    #echo $binpkg
+    srcpkg=`apt-cache show --no-all-versions $binpkg | grep '^Source' | sed 's/Source: //g'`
+    #echo $binpkg $srcpkg
+#done
+#exit 0
+
+#for srcpkg in camiface python-flymovieformat wxglvideo wxvideo imops wxwrap wxvalidatedtext motmotutils fview
+#do
   echo -n " * $srcpkg "
   apt-cache showsrc $srcpkg | grep Version | head -n 1
   echo -n "  "
@@ -21,11 +32,10 @@ done
 echo
 echo "== Dependencies for running motmot packages on Ubuntu =="
 
-for pkg in python-camiface python-flymovieformat python-wxglvideo python-wxvideo python-imops python-wxwrap python-wxvalidatedtext python-motmotutils python-fview
-do
+for binpkg in $binpkgs; do
   echo -n " * $pkg "
-  apt-cache show --no-all-versions $pkg | grep '^Version'
+  apt-cache show --no-all-versions $binpkg | grep '^Version'
   echo -n "  "
-  apt-cache show --no-all-versions $pkg | grep Depends
+  apt-cache show --no-all-versions $binpkg | grep Depends
 done
 
