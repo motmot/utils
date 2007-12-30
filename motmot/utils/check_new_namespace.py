@@ -11,7 +11,6 @@ import re
 
 old_top_level_modules = ['motmot_utils',
                          'cam_iface',
-                         'cam_iface_ctypes',
                          'FastImage',
                          'fview_UDP_logger',
                          'fview',
