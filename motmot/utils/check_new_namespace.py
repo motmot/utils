@@ -43,7 +43,7 @@ def main():
                 if line == "__import__('pkg_resources').declare_namespace(__name__)\n":
                     continue
                 else:
-                    print 'WARNING: could not parse line: %s'%repr(line)
+                    print 'WARNING: could not parse line %s(%d): %s'%(filename,lineno,repr(line))
                     continue
             if len(split)<2: # cannot be import line
                 continue
