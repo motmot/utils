@@ -11,5 +11,7 @@ setup(name='motmot.utils',
       packages=find_packages(),
       namespace_packages = ['motmot'],
       entry_points={'console_scripts':[
-    'motmot_test=motmot.utils.utils:test_motmot',]},
+    'motmot_test=motmot.utils.utils:test_motmot',
+    'motmot_check_new_namespace=motmot.utils.check_new_namespace:main',
+    ]},
       )
