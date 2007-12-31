@@ -12,7 +12,7 @@ echo "== Dependencies for building motmot packages on Ubuntu =="
 
 # XXX Need to update this. Here are most of the binaries:
 
-binpkgs="camiface python-motmot-utils python-posixsched python-motmot-fastimage python-motmot-flytrax python-motmot-fview python-motmot-fview-livehistogram python-motmot-fview-udplogger python-motmot-imops python-motmot-camiface python-motmot-realtimeimageanalysis python-motmot-trackem python-motmot-wxglvideo python-motmot-wxvalidatedtext python-motmot-wxvideo"
+binpkgs="libcamiface python-motmot-utils python-posixsched python-motmot-fastimage python-motmot-flytrax python-motmot-fview python-motmot-fview-livehistogram python-motmot-fview-udplogger python-motmot-imops python-motmot-camiface python-motmot-realtimeimageanalysis python-motmot-trackem python-motmot-wxglvideo python-motmot-wxvalidatedtext python-motmot-wxvideo"
 
 for binpkg in $binpkgs; do
     #echo $binpkg

@@ -5,6 +5,8 @@ The following list of dependencies was generated automatically by the {{{motmot_
 These were generated on an Ubuntu system, but will give you a rough feel for other systems, too.
 
 == Dependencies for building motmot packages on Ubuntu ==
+ * camiface Version: 0.4.dev98-0ads1
+  Build-Depends: python-all-dev (>= 2.3.5-11), python-setuptools (>= 0.6b3-1), debhelper (>= 5.0.38), python-dev, python-pyrex (>= 0.9.4.1+lxml0.9.5.1a), g++, scons, libdc1394-dev, libdc1394-2-dev, libopenthreads-dev, python-central (>= 0.5.6), python-motmotutils, libprosilica-gige-dev
  * motmot.utils Version: 20071227.00-0ads1
   Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6)
  * posixsched Version: 1.01-1
@@ -35,8 +37,8 @@ These were generated on an Ubuntu system, but will give you a rough feel for oth
   Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6)
 
 == Dependencies for running motmot packages on Ubuntu ==
- * camiface Version: 0.4.dev367-0ads1
-  Depends: libc6 (>= 2.6-1), libcv1, libdc1394-13, libdc1394-2, libhighgui1, libraw1394-8, libprosilica-gige0
+ * libcamiface Version: 0.4.dev367-0ads1
+  Depends: libc6 (>= 2.6-1), libdc1394-13, libdc1394-2, libgcc1 (>= 1:4.2.1), libraw1394-8, libstdc++6 (>= 4.2.1), libprosilica-gige0
  * python-motmot-utils Version: 20071230.00-0ads1
   Depends: python2.5, python, python-central (>= 0.5.8), python-setuptools
  * python-posixsched Version: 1.01-0ads5
