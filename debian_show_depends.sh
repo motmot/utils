@@ -33,7 +33,7 @@ echo
 echo "== Dependencies for running motmot packages on Ubuntu =="
 
 for binpkg in $binpkgs; do
-  echo -n " * $pkg "
+  echo -n " * $binpkg "
   apt-cache show --no-all-versions $binpkg | grep '^Version'
   echo -n "  "
   apt-cache show --no-all-versions $binpkg | grep Depends

@@ -35,33 +35,33 @@ These were generated on an Ubuntu system, but will give you a rough feel for oth
   Build-Depends: python-setuptools (>= 0.6b3-1), python-all-dev (>= 2.3.5-11), debhelper (>= 5.0.38), python-central (>= 0.5.6)
 
 == Dependencies for running motmot packages on Ubuntu ==
- *  Version: 0.4.dev367-0ads1
+ * camiface Version: 0.4.dev367-0ads1
   Depends: libc6 (>= 2.6-1), libcv1, libdc1394-13, libdc1394-2, libhighgui1, libraw1394-8, libprosilica-gige0
- *  Version: 20071230.00-0ads1
+ * python-motmot-utils Version: 20071230.00-0ads1
   Depends: python2.5, python, python-central (>= 0.5.8), python-setuptools
- *  Version: 1.01-0ads5
+ * python-posixsched Version: 1.01-0ads5
   Depends: python2.5, python-central (>= 0.5.8), python (<< 2.6), python (>= 2.4), libc6 (>= 2.5-0ubuntu1)
- *  Version: 0.5.2~dev-r379-0ads1
+ * python-motmot-fastimage Version: 0.5.2~dev-r379-0ads1
   Depends: python-central (>= 0.5.8), python (<< 2.6), python (>= 2.4), libc6 (>= 2.6-1), libipp, python-numpy
- *  Version: 0.5.3~dev-r380-0ads1
+ * python-motmot-flytrax Version: 0.5.3~dev-r380-0ads1
   Depends: python2.5, python, python-central (>= 0.5.8), python-motmot-fview, python-motmot-realtimeimageanalysis, python-motmot-wxvideo, python-motmot-wxvalidatedtext, python-scipy
- *  Version: 0.5.2~dev-r379-0ads1
+ * python-motmot-fview Version: 0.5.2~dev-r379-0ads1
   Depends: python2.5, python, python-central (>= 0.5.8), python-motmot-camiface, python-motmot-flymovieformat, python-motmot-wxglvideo, python-posixsched, python-setuptools, gksu, python-motmot-wxvalidatedtext, python-motmot-utils, python-pyglet, python-pygarrayimage
- *  Version: 0.5.0~dev-r381-0ads1
+ * python-motmot-fview-livehistogram Version: 0.5.0~dev-r381-0ads1
   Depends: python, python-central (>= 0.5.8)
- *  Version: 0.4~dev-r376-0ads1
+ * python-motmot-fview-udplogger Version: 0.4~dev-r376-0ads1
   Depends: python, python-central (>= 0.5.8)
- *  Version: 0.5.2~dev-r379-0ads1
+ * python-motmot-imops Version: 0.5.2~dev-r379-0ads1
   Depends: python-central (>= 0.5.8), python (<< 2.6), python (>= 2.4), libc6 (>= 2.6-1), python-numpy (>= 1:1.0.3), python-setuptools
- *  Version: 0.4.1~dev-r379-0ads1
+ * python-motmot-camiface Version: 0.4.1~dev-r379-0ads1
   Depends: python-central (>= 0.5.8), python (<< 2.6), python (>= 2.4), libc6 (>= 2.6-1), libcamiface
- *  Version: 0.5.3~dev-r379-0ads1
+ * python-motmot-realtimeimageanalysis Version: 0.5.3~dev-r379-0ads1
   Depends: python-central (>= 0.5.8), python (<< 2.6), python (>= 2.4), libc6 (>= 2.6-1), python-motmot-fastimage, python-numpy
- *  Version: 0.4.1~dev-r362-0ads1
+ * python-motmot-trackem Version: 0.4.1~dev-r362-0ads1
   Depends: python, python-central (>= 0.5.8), python-motmot-fview, python-motmot-fastimage, python-motmot-wxvalidatedtext, python-numpy, python-motmot-imops, python-motmot-flytrax
- *  Version: 0.6.1~dev-r384-0ads1
+ * python-motmot-wxglvideo Version: 0.6.1~dev-r384-0ads1
   Depends: python, python-central (>= 0.5.8), python-opengl, python-wxgtk2.8, python-motmot-imops, python-setuptools, python-pygarrayimage, python-pyglet
- *  Version: 0.5.1~dev-r350-0ads1
+ * python-motmot-wxvalidatedtext Version: 0.5.1~dev-r350-0ads1
   Depends: python2.5, python, python-central (>= 0.5.8)
- *  Version: 0.5.2~dev-r382-0ads1
+ * python-motmot-wxvideo Version: 0.5.2~dev-r382-0ads1
   Depends: python, python-central (>= 0.5.8), python-motmot-imops
